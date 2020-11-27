@@ -1,3 +1,4 @@
+import java.util.Date ;
 public class ReverseArray{
 	
 	public static int [] reverseArray (int [] arr){
@@ -21,6 +22,8 @@ public class ReverseArray{
 		System.out.println("\nThe reversed array is:");
 		arr = reverseArray(arr);
 		printArray(arr);
+		Date date = new Date();
+		System.out.println("\n" + date.toString());
 
 	}
 }
